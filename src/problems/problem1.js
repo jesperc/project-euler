@@ -10,5 +10,4 @@ const problem1 = () => {
     return sum;
 };
 
-const result = timer(problem1);
-console.log(result);
+timer(problem1);

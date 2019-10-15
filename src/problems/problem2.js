@@ -16,5 +16,4 @@ const problem2 = () => {
     return sum;
 };
 
-const result = timer(problem2);
-console.log(result);
+timer(problem2);

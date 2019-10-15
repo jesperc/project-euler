@@ -5,6 +5,6 @@ module.exports = (func, decimals = 3) => {
     const result = func();
     const end = now();
 
+    console.log(result);
     console.log(`Execution took ${(end-start).toFixed(decimals)} milliseconds`);
-    return result;
 };
